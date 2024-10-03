@@ -7,6 +7,16 @@
   <title>Website</title>
   <script src="https://kit.fontawesome.com/8936b6b95d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
@@ -164,32 +174,227 @@
             <p>portfolio</p>
             <h1>My Latest Work</h1>
         </div>
-        <div class="grid grid-cols-2 place-content-center gap-10">
-            <div>
+        <div class="flex md:flex-col lg:flex-col mx-auto gap-10">
+
+            <div class="flex justify-center gap-10">
+                <div>
+                    <img src="img/item.jpg" width="500" alt="">
+                </div>
+                <div>
+                    <img src="img/item.jpg" width="500" alt="">
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-10">
+                <div>
                 <img src="img/item.jpg" width="500" alt="">
             </div>
             <div>
                 <img src="img/item.jpg" width="500" alt="">
             </div>
-            <div>
-                <img src="img/item.jpg" width="500" alt="">
             </div>
-            <div>
-                <img src="img/item.jpg" width="500" alt="">
+
+            <div class="flex justify-center gap-10">
+                <div>
+                    <img src="img/item.jpg" width="500" alt="">
+                </div>
+                <div>
+                    <img src="img/item.jpg" width="500" alt="">
+                </div>
             </div>
-            <div>
-                <img src="img/item.jpg" width="500" alt="">
-            </div>
-            <div>
-                <img src="img/item.jpg" width="500" alt="">
-            </div>
-            
+          
         </div>
      </div>
     <!-- portfolio -->
+
+    <!-- testimonial -->
+     <div class="mt-20">
+        <div class="text-center">
+            <p>Testimonial</p>
+            <h1>Our Successful Students</h1>
+        </div>
+     
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper ">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div>
+                <div class="flex gap-5 items-center mb-5">
+                    <div class="relative">
+                        <img class="w-20 h-20 rounded-full" src="img/men.jpeg" alt="">
+                        <i class="fa-solid fa-quote-left fa-md bg-blue-400 p-2 rounded-full absolute bottom-0 right-0" style="color: #FFFF;"></i>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-2xl font-bold uppercase">roger scott</h4>
+                        <p class="text-md text-blue-600 uppercase">Marketing manager</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, voluptatibus.</p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+                <div class="flex gap-5 items-center mb-5">
+                    <div class="relative">
+                        <img class="w-20 h-20 rounded-full" src="img/men.jpeg" alt="">
+                        <i class="fa-solid fa-quote-left fa-md bg-blue-400 p-2 rounded-full absolute bottom-0 right-0" style="color: #FFFF;"></i>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-2xl font-bold uppercase">roger scott</h4>
+                        <p class="text-md text-blue-600 uppercase">Marketing manager</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, voluptatibus.</p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+                <div class="flex gap-5 items-center mb-5">
+                    <div class="relative">
+                        <img class="w-20 h-20 rounded-full" src="img/men.jpeg" alt="">
+                        <i class="fa-solid fa-quote-left fa-md bg-blue-400 p-2 rounded-full absolute bottom-0 right-0" style="color: #FFFF;"></i>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-2xl font-bold uppercase">roger scott</h4>
+                        <p class="text-md text-blue-600 uppercase">Marketing manager</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, voluptatibus.</p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+                <div class="flex gap-5 items-center mb-5">
+                    <div class="relative">
+                        <img class="w-20 h-20 rounded-full" src="img/men.jpeg" alt="">
+                        <i class="fa-solid fa-quote-left fa-md bg-blue-400 p-2 rounded-full absolute bottom-0 right-0" style="color: #FFFF;"></i>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-2xl font-bold uppercase">roger scott</h4>
+                        <p class="text-md text-blue-600 uppercase">Marketing manager</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, voluptatibus.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <!-- testimonial -->
+
+
+    <!-- Blog -->
+    <div class="max-w-[1000px] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+            <div class="card bg-base-100 w-full shadow-xl rounded">
+                <figure>
+                    <img src="img/item.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <div class="card-actions justify-start">
+                        <div class="">Jan. 18, 202</div>
+                        <div class="">3 Comments</div>
+                    </div>
+                    <h2 class="card-title">
+                        Tips About Creating A New Web Design
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-full shadow-xl rounded">
+                <figure>
+                    <img src="img/item.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <div class="card-actions justify-start">
+                        <div class="">Jan. 18, 202</div>
+                        <div class="">3 Comments</div>
+                    </div>
+                    <h2 class="card-title">
+                        Tips About Creating A New Web Design
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-full shadow-xl rounded">
+                <figure>
+                    <img src="img/item.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <div class="card-actions justify-start">
+                        <div class="">Jan. 18, 202</div>
+                        <div class="">3 Comments</div>
+                    </div>
+                    <h2 class="card-title">
+                        Tips About Creating A New Web Design
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-full shadow-xl rounded">
+                <figure>
+                    <img src="img/item.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <div class="card-actions justify-start">
+                        <div class="">Jan. 18, 202</div>
+                        <div class="">3 Comments</div>
+                    </div>
+                    <h2 class="card-title">
+                        Tips About Creating A New Web Design
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-full shadow-xl rounded">
+                <figure>
+                    <img src="img/item.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <div class="card-actions justify-start">
+                        <div class="">Jan. 18, 202</div>
+                        <div class="">3 Comments</div>
+                    </div>
+                    <h2 class="card-title">
+                        Tips About Creating A New Web Design
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+         
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- Blog -->
   
 
     </div>
   <script src="./js/script.js"></script>
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+  
+    const swiper = new Swiper()
+  </script>
 </body>
 </html>

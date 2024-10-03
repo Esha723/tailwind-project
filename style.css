@@ -1,3 +1,27 @@
 .counter{
     background-image: url('/img/counting.jpg');
 }
+
+.swiper {
+    width: 100%; /* Use full width */
+    max-width: 600px; /* Limit max width */
+    height: 300px;
+}
+
+.swiper-slide {
+    display: flex; /* Ensure content is aligned correctly */
+    justify-content: center; /* Center content */
+    align-items: center; /* Center vertically */
+}
+
+@media (max-width: 768px) {
+    .swiper {
+        height: auto; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-slide {
+        flex-direction: column; /* Stack items on smaller screens */
+    }
+}
